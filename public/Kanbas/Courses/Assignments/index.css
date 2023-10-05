@@ -1,0 +1,115 @@
+.wd-justify-content-inbetween {
+    justify-content: space-between;
+}
+
+.wd-green-left {
+    border-left: 3px green solid;
+}
+
+.list-group-item.wd-green-left {
+    display: flex;
+    align-items: center;
+}
+
+.wd-green-text {
+    color: green;
+}
+
+#wd-assignment-desc {
+    height: 150px;
+    /* width: 700px; */
+}
+
+.wd-flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.wd-font-bold {
+    font-weight: bold;
+}
+
+.card-body .row {
+    height: 35px;
+}
+
+.wd-flex-container {
+    flex-grow: 1;
+}
+
+.wd-row-submission-type {
+    height: 30%;
+}
+
+.wd-row-assign {
+    height: 25%;
+}
+
+.wd-align-items-start {
+    align-items: start;
+}
+
+.wd-align-items-center {
+    align-items: center;
+}
+
+.wd-assignment-text {
+    color: black;
+    text-decoration: none;
+    width: 250px;
+    display: inline-block;
+}
+
+.wd-assignment-text:hover {
+    color:black;
+}
+
+.badge {
+	.close {
+		margin-left: .25rem;
+		color: inherit;
+		font-size: 100%;
+	}
+}
+
+.wd-badge {
+    color: black;
+    background-color: #f8f9fa;
+}
+
+.wd-assign-box {
+    align-items: start;
+    width: 100%;
+}
+
+.wd-width-95 {
+    width: 95%;
+}
+
+.wd-space-between {
+    justify-content: space-between;
+}
+
+.wd-height-20 {
+    height: 20px;
+}
+
+.wd-forty-of-total {
+    padding: 3px;
+    font-size: small;
+}
+
+.wd-justify-content-end {
+    justify-content: end;
+}
+
+.wd-width-50 {
+    width: 10%;
+}
+
+.wd-flex-grow-2 {
+    flex-grow: 2;
+}
+
+.wd-align-self-end {
+    align-self: flex-end;
+}

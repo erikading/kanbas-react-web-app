@@ -1,0 +1,20 @@
+label.form-label {
+    font-weight: bold;
+}
+
+.wd-submit-cancel-buttons {
+    padding: 10px;
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: flex-end; */
+    gap: 5px;
+}
+
+.wd-biography {
+    width: 97%;
+    height: 100px;
+}
+
+.wd-youtube-link-title {
+    text-align: center;
+}

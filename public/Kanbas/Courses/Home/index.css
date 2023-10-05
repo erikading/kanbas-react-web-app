@@ -1,0 +1,125 @@
+.breadcrumb {
+    align-items: stretch;
+    /* height: 100%; */
+    margin-bottom: 0px;
+}
+
+nav {
+    display: flex;
+}
+
+.wd-padding-top {
+    padding-top: 5px;
+}
+
+.wd-content-container {
+    flex-direction: column;
+}
+
+.wd-flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.list-group {
+    border-radius: 0px;
+}
+
+.wd-top-nav-bar-collapsed {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wd-width-100 {
+    width: 100%;
+}
+
+.wd-width-80 {
+    width: 80%;
+}
+
+.wd-course-navigation-collapsed {
+    background-color: white;
+    border-radius: 0%;
+    margin: 0px;
+}
+
+#navigation {
+    width: 100%;
+    background-color: white;
+}
+
+.wd-bars-button.wd-bg-black {
+    background-color: black;
+    color: white;
+}
+
+.wd-bg-black {
+    background-color: black;
+}
+
+.wd-top-nav-bar-collapsed .btn {
+    color: white;
+}
+
+.wd-course-navigation-collapsed li.active {
+    font-weight: bold;
+}
+
+ul.wd-course-navigation .list-group-item {
+    border: none;
+}
+
+ul.wd-course-navigation-collapsed .list-group-item.active {
+    font-weight: bold;
+}
+
+ul.wd-course-navigation-collapsed a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-color-gray {
+    color:gray;
+    background-color: white;
+}
+
+.modal-content .list-group-item {
+    border:none;
+}
+
+.modal-header {
+    border: none;
+}
+
+.wd-bg-white {
+    background-color: white;
+}
+
+.breadcrumb-item.active {
+    color: black;
+}
+
+.wd-content-container.wd-right-sidebar {
+    padding: 0px;
+}
+
+.wd-text-left {
+    text-align: left !important;
+}
+
+.btn {
+    border-radius: 0%;
+}
+
+.wd-color-red {
+    background-color: red;
+    border-radius: 100%;
+}
+
+.wd-font-14 {
+    font-size: 14px;
+}
+

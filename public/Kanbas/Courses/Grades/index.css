@@ -1,0 +1,13 @@
+.row.wd-align-bottom {
+    height: 35px;
+    align-items: flex-end;
+}
+
+.wd-flex-row {
+    width: 100%;
+}
+
+.wd-restrict-width {
+    width: 80px;
+    height: 30px;
+}

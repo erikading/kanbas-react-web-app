@@ -1,0 +1,52 @@
+.wd-dashboard-container {
+    padding: 10px;
+    padding-right: 0px;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.wd-card-container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* align-content: space-around; */
+    row-gap: 30px;
+}
+
+.wd-heading-text {
+    font-weight: 100;
+    font-size: 38px;
+}
+
+.wd-secondary-bar {
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.card {
+    width: 260px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
+
+.card-img-top {
+    width: 260px;
+    height: 146px;
+}
+
+/* .wd-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+.wd-dashboard-card-text {
+    color:blue;
+    text-decoration: none;
+}
+
+a.wd-dashboard-card-text:hover {
+    color:blue;
+    text-decoration: underline;
+    text-decoration-color: red;
+}

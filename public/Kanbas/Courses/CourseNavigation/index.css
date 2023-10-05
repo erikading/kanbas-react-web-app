@@ -1,0 +1,50 @@
+.wd-course-navigation-container {
+    margin-left: 75px;
+    padding-top: 24px;
+    padding-bottom: 72px;
+    padding-right: 12px;
+    max-width: 190px;
+}
+
+.wd-course-navigation li {
+    list-style-type: none;
+    /* margin-bottom:  20px; */
+    /* padding: left 10px; */
+    padding: 8px 0px 8px 6px;
+}
+
+.wd-course-navigation li.active {
+    border-left: 1px black solid;
+}
+
+.wd-course-navigation li a {
+    color: red;
+    text-decoration: none;
+}
+
+ul.wd-course-navigation {
+    border-radius: 0%;
+    /* padding: 0px; */
+    padding-left: 20px;
+    margin: 0px;
+}
+
+ul.wd-course-navigation .list-group-item {
+    border: none;
+}
+
+ul.wd-course-navigation .list-group-item.active {
+    color:black;
+    background-color:white;
+    border:none;
+    border-left: 2px solid black;
+}
+
+ul.wd-course-navigation a {
+    color: red;
+    text-decoration: none;
+}
+
+ul.wd-course-navigation .list-group-item.active a {
+    color: black;
+}

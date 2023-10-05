@@ -1,0 +1,94 @@
+.wd-top-nav-bar {
+    margin-left: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.row {
+    height: 50px;
+    align-items: center;
+}
+
+/* .wd-top-nav-bar.wd-top-nav-bar-inner-content {
+    height: 50px;
+    align-items: center;
+} */
+
+button {
+    border: none;
+}
+
+hr {
+    margin: 0px;
+}
+
+button.wd-bars-button {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    color: red;
+    font-size: 21px;
+    display:inline-block;
+}
+
+.wd-nav-text {
+    font-size: 20px;
+    /* text-align: left; */
+}
+
+/* .wd-nav-text-col {
+    text-align: left;
+} */
+
+.wd-course-navigation-col {
+    max-width: fit-content;
+}
+
+i.fa-regular.fa-circle-user {
+    font-size: 120px;
+}
+
+.wd-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-flex-top-container {
+    display: flex;
+    min-height: 50px;
+    /* flex-direction: row; */
+    align-items: center;
+    gap: 20px;
+}
+
+.wd-flex-grow-1 {
+    flex-grow: 1;
+}
+
+.wd-flex-col {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    gap: 20px;
+}
+
+.wd-flex-grow-2 {
+    flex-grow: 2;
+}
+
+.wd-link {
+    color: red;
+    text-decoration: none;
+}
+
+a.wd-link:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+.wd-content-container {
+    padding: 24;
+    display: flex;
+}

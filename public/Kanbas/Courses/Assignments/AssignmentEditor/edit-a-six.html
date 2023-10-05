@@ -1,0 +1,332 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css" rel="stylesheet">
+        <link href="\Kanbas\KanbasNavigation\index.css" rel="stylesheet">
+        <link href="\Kanbas\Account\index.css" rel="stylesheet">
+        <link href="\Kanbas\Courses\CourseNavigation\index.css" rel="stylesheet">
+        <link href="\Kanbas\Courses\Home\index.css" rel="stylesheet">
+        <link href="..\index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container wd-pos-fixed">
+            <div class="wd-menu-item wd-center wd-nu-logo">
+                <a class="wd-kanbas-link" href="https://northeastern.instructure.com/">
+                    <img src="../../../../images/nu-logo.png" width="67px" height="67px"/>
+                </a>
+            </div>
+            <div class="wd-menu-item wd-center">
+                <a class="wd-kanbas-link" href="/Kanbas/Account/screen.html">
+                    <i class="fa-solid fa-user wd-kanbas-icon wd-center"></i>
+                    Account
+                </a>
+            </div>
+            <div class="wd-menu-item wd-center">
+                <a class="wd-kanbas-link" href="/Kanbas/Dashboard/index.html">
+                    <i class="fa-solid fa-gauge wd-kanbas-icon wd-center"></i>
+                    Dashboard
+                </a>
+            </div>
+            <div class="wd-menu-item-active wd-center">
+                <a class="wd-kanbas-link" href="/Kanbas/Courses/Home/webdev-home.html">
+                    <i class="fa-solid fa-book wd-kanbas-icon wd-center"></i>
+                    Courses
+                </a>
+            </div>
+            <div class="wd-menu-item wd-center">
+                <a class="wd-kanbas-link" href="#">
+                    <i class="fa-solid fa-calendar-days wd-kanbas-icon wd-center"></i>
+                    Calendar
+                </a>
+            </div>
+            <div class="wd-menu-item wd-center">
+                <a class="wd-kanbas-link" href="#">
+                    <i class="fa-solid fa-inbox wd-kanbas-icon wd-center"></i>
+                    Inbox
+                </a>
+            </div>
+            <div class="wd-menu-item wd-center">
+                <a class="wd-kanbas-link" href="#">
+                    <i class="fa-regular fa-clock wd-kanbas-icon wd-center"></i>
+                    History
+                </a>
+            </div>
+            <div class="wd-menu-item wd-center">
+                <a class="wd-kanbas-link" href="#">
+                    <i class="fa-solid fa-tv wd-kanbas-icon wd-center"></i>
+                    Studio
+                </a>
+            </div>
+            <div class="wd-menu-item wd-center">
+                <a class="wd-kanbas-link" href="#">
+                    <i class="fa-solid fa-arrow-right-from-bracket wd-kanbas-icon wd-center"></i>
+                    Commons
+                </a>
+            </div>
+            <div class="wd-menu-item wd-center">
+                <a class="wd-kanbas-link" href="#">
+                    <i class="fa-regular fa-circle-question wd-kanbas-icon wd-center"></i>
+                    Help
+                </a>
+            </div>
+        </div>
+
+        <div class="wd-top-nav-bar">
+                <div class="wd-flex-top-container wd-flex-row">
+                    <button class="wd-bars-button">
+                        <i class="fa-solid fa-bars wd-bars-icon"></i>
+                    </button>
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a class="wd-link" href="../../Home/webdev-home.html">CS4550.12631.202410</a></li>
+                          <li class="breadcrumb-item"><a class="wd-link" href="../index.html">Assignments</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">A6 - MONGO + MONGOOSE</li>
+                        </ol>
+                      </nav>
+                </div>
+            <hr/>
+        </div>
+
+        
+        <div class="wd-flex-row">
+            <div class="wd-course-navigation-container">
+                <ul class="wd-course-navigation">
+                    <li class="list-group-item">
+                        <a href="/Kanbas/Courses/Home/webdev-home.html">Home</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Modules</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Piazza</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Zoom Meetings</a>
+                    </li>
+                    <li class="list-group-item active">
+                        <a href="/Kanbas/Courses/Assignments/index.html">Assignments</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Quizzes</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/Kanbas/Courses/Grades/grades.html">Grades</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>People</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Panopto Video</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Discussions</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Announcements</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Pages</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Files</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Rubrics</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Outcomes</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Collaborations</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Syllabus</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href=#>Settings</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-fluid wd-content-container wd-width-100 wd-height-100">
+                <!-- <div class="wd-flex-col"> -->
+                    <div>
+                        <button type="button" class="btn btn-light ms-2 float-end">
+                            <i class="fa fa-ellipsis-v my-1" aria-hidden="true"></i>
+                        </button>
+                        <span class="wd-green-text float-end ms-2 mt-1">Published</span>
+                        <i class="fa-solid fa-circle-check float-end mt-2 ms-2 wd-green-text">
+                        </i>
+                    </div>
+                    <form action="/Kanbas/Courses/Assignments/index.html">
+                        <hr class="mt-3 mb-2" />
+                        <label for="assignment-name" class="mb-1">Assignment Name</label>
+                        <input type="text" class="form-control mb-3" id="assignment-name" value="A1 - ENV + HTML" />
+                        <textarea id="wd-assignment-desc" class="form-control">This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to a Github source repository, and then deploying the content to a remote server hosted on Netlify.</textarea>
+                        
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="points" class="float-end">Points</label>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control" id="points" value="100" />
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="assignment-group" class="float-end">Assignment Group</label>
+                            </div>
+                            <div class="col">
+                                <select class="form-select" id="assignment-group">
+                                    <option>ASSIGNMENTS</option>
+                                </select>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="display-grade" class="float-end">Display Grade</label>
+                            </div>
+                            <div class="col">
+                                <select id="display-grade" class="form-select">
+                                    <option>Percentage</option>
+                                </select>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                            </div>
+                            <div class="col">
+                                <div class="wd-flex-row">
+                                    <input type="checkbox" class="form-check me-2" /><span>Do not count this assignment towards the final grade</span>
+                                </div>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                        <div class="row wd-row-submission-type wd-align-items-start">
+                            <div class="col-3">
+                                <label for="submission-type" class="float-end">Submission Type</label>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <select class="form-select" id="submission-type">
+                                            <option>Online</option>
+                                        </select>
+
+                                        <div class="row">
+                                            <label for="check-online-entry-options wd-font-bold" class="form-check mt-2">
+                                                <span class="wd-font-bold">Online Entry Options</span>
+                                            </label>
+                                        </div>
+                                        <div class="row">
+                                            <div class="wd-flex-row">
+                                                <input type="checkbox" class="form-check me-2" value="TEXTENTRY" 
+                                                name="check-online-entry-options" id="text-entry" checked/>
+                                                <label for="text-entry">Text Entry</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="wd-flex-row">
+                                                <input type="checkbox" class="form-check me-2" value="WEBSITEURL" 
+                                                name="check-online-entry-options" id="website-url" checked />
+                                                <label for="website-url">Website URL</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="wd-flex-row">
+                                                <input type="checkbox" class="form-check me-2" value="MEDIARECORDINGS"
+                                                name="check-online-entry-options" id="media-recordings" checked />
+                                                <label for="media-recordings">Media Recordings</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="wd-flex-row">
+                                                <input type="checkbox" class="form-check me-2" value="STUDENTANNOTATION" 
+                                                name="check-online-entry-options" id="student-annotation" />
+                                                <label for="student-annotation">Student Annotation</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="wd-flex-row">
+                                                <input type="checkbox" class="form-check me-2" value="FILEUPLOADS" 
+                                                name="check-online-entry-options" id="file-uploads" />
+                                                <label for="file-uploads">File Uploads</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                        <div class="row wd-row-assign wd-align-items-start">
+                            <div class="col-3">
+                                <label for="assign-to" class="float-end">Assign</label>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <label for="assign-to" class="wd-font-bold">Assign to</label>
+                                        </div>
+                                        <div class="row">
+                                            <div class="card wd-center wd-width-95 ms-2">
+                                                <span class="badge wd-badge w-25 my-1 mx-1">
+                                                    <span>Everyone</span>
+                                                    <button type="button" class="close wd-badge" data-dismiss="alert" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <label for="due" class="wd-font-bold">Due</label>
+                                        </div>
+                                        <div class="row">
+                                            <input type="date" class="form-control wd-width-95 ms-2" id="due" value="2023-18-09" />
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col">
+                                                <label for="available-from" class="wd-font-bold my-2">Available from</label>
+                                            </div>
+                                            <div class="col">
+                                                <label for="until" class="wd-font-bold my-2">Until</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="date" class="form-control" id="available-from" value="2023-06-09" />
+                                            </div>
+                                            <div class="col">
+                                                <input type="date" class="form-control" id="until" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                        <div class="row">
+                            <hr class="my-2" />
+                            <div class="wd-flex-row wd-space-between">
+                                <div class="wd-flex-row wd-align-items-center">
+                                    <input type="checkbox" class="form-check me-2" value="NOTIFY" 
+                                    name="notify" id="notify" />
+                                    <label for="notify">Notify users that this content has changed</label>
+                                </div>
+                                <div>
+                                    <a href="/Kanbas/Courses/Assignments/index.html"><button class="btn btn-light">Cancel</button></a>
+                                    <a href="/Kanbas/Courses/Assignments/index.html"><button class="btn btn-danger">Save</button></a>
+                                </div>
+                            </div>
+                            <hr class="my-2" />
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </body>
+</html>
