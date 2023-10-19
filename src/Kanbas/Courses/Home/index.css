@@ -1,0 +1,9 @@
+.wd-link {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-link:hover {
+    color: red;
+    text-decoration: underline;
+}

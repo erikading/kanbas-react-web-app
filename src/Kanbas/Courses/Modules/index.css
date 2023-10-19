@@ -1,0 +1,23 @@
+.wd-flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.list-group.wd-module {
+    border-radius: 0%;
+}
+
+.list-group-item.wd-module {
+    margin:10px;
+    margin-right:0px;
+    padding: 10px;
+}
+
+.wd-margin-5 {
+    margin: 5px;
+}
+
+.wd-flex-column {
+    display: flex;
+    flex-direction: column;
+}

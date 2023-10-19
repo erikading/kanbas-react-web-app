@@ -1,0 +1,163 @@
+.list-group.wd-menu {
+    /* max-width: 150px; */
+    height: 100%;
+    background-color: black;
+    /* margin: 5px; */
+    padding: 0px;
+    position: fixed;
+    left: 0px;
+    border-radius: 0%;
+}
+
+.list-group-item.wd-menu-item {
+    color: white;
+    height: 67px;
+    max-width: 75px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    padding: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-width: 0px;
+    
+    flex-direction: column;
+    /* padding: 5px; */
+}
+
+.list-group-item.wd-menu-item-active.active {
+    background-color: white;
+}
+
+body {
+    font-family: LatoWeb, "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container.wd-pos-fixed {
+    max-width: 75px;
+    height: 100%;
+    background-color: black;
+    /* margin: 5px; */
+    padding: 0px;
+    position: fixed;
+    left: 0px;
+}
+
+.wd-menu-item.wd-nu-logo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 85px;
+}
+
+.wd-menu-item.wd-nu-logo .wd-kanbas-link {
+    padding: 0px;
+}
+
+/* .wd-bars {
+
+} */
+
+.wd-menu-item {
+    height: 67px;
+    max-width: 75px;
+    /* display: flex; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    background-color: black;
+    padding: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* padding: 5px; */
+}
+
+.wd-menu-item.wd-menu-item-active {
+    background-color: white;
+}
+
+.wd-center {
+    display: flex;
+    justify-content: center;
+}
+
+.wd-menu-item-active {
+    background-color: white;
+}
+
+.wd-menu-item-active .wd-kanbas-link {
+    background-color: white;
+    color: red;
+}
+
+.wd-kanbas-icon {
+    color: red;
+    font-size: 21px;
+    margin: 5px;
+}
+
+.wd-kanbas-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+a.wd-kanbas-link:hover {
+    /* text-decoration: none; */
+    color:white
+}
+
+.wd-menu-item-active a.wd-kanbas-link:hover {
+    color:red;
+}
+
+/* .wd-kanbas-navigation li {
+    max-width: 85px;
+    max-height: max-content;
+    list-style-type: none;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+} */
+
+.wd-account-icon {
+    /* color:white; */
+    color: lightgray;
+    font-size: 21px;
+    margin: 5px;
+}
+
+/* .fa-solid.fa-user .list-group-item.active {
+    color:lightgray;
+} */
+
+/* .wd-kanbas-navigation li i {
+    color: red;
+    font-size: 21px;
+
+}
+
+.wd-kanbas-navigation li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14;
+}
+
+.wd-kanbas-navigation .list-group-item {
+    border-radius: 0%;
+    margin:5px;
+}
+
+ul.wd-kanbas-navigation .list-group-item.active {
+    background-color:white;
+    border:none;
+}
+
+ul.wd-kanbas-navigation .list-group-item.active a {
+    color:red;
+    background-color:white;
+    border:none;
+} */

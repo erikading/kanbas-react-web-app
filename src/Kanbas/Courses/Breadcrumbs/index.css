@@ -1,0 +1,9 @@
+.breadcrumb-item {
+    --bs-breadcrumb-divider: '>';
+    font-size: 18px;
+}
+
+.breadcrumb {
+    margin: 0px;
+    height: 16px;
+}

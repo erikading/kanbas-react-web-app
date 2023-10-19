@@ -1,0 +1,20 @@
+.list-group.wd-assignments {
+    border-radius: 0%;
+}
+
+.list-group-item.wd-assignments {
+    border-left-width: 3px;
+    border-left-color: green;
+}
+
+.wd-justify-content-inbetween {
+    justify-content: space-between;
+}
+
+.list-group-item.wd-assignments-title {
+    background-color: lightgrey;
+}
+
+.wd-assignments span {
+    font-weight: bold;
+}
