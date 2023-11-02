@@ -9,3 +9,7 @@
 .wd-justify-content-center {
     align-items: center;
 }
+
+.wd-left-80 {
+    margin-left: 80px;
+}

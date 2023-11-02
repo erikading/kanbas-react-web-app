@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import db from "../../Database";
 import './index.css';
+import AssignmentList from "./AssignmentList";
 
 
 function Assignments() {

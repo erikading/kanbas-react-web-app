@@ -9,10 +9,11 @@ import '../Dashboard/index.css';
 import './index.css';
 import {FaBars} from 'react-icons/fa'; 
 
-function Courses() {
-
+function Courses({ courses }) {
+    const { courseId } = useParams();
+    const course = courses.find((course) => course._id === courseId);
   return (
-    <div>
+    <div className="wd-left-80">
         <div className="wd-flex-top-container wd-width-100 wd-justify-content-center">
             <FaBars className="wd-kanbas-icon"/>
             <Breadcrumbs/>
