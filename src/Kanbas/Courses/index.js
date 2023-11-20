@@ -8,10 +8,23 @@ import Breadcrumbs from "./Breadcrumbs";
 import '../Dashboard/index.css';
 import './index.css';
 import {FaBars} from 'react-icons/fa'; 
+import { useState, useEffect } from "react";
+import axios from "axios";
 
-function Courses({ courses }) {
+function Courses() {
     const { courseId } = useParams();
-    const course = courses.find((course) => course._id === courseId);
+    const URL = `${process.env.REACT_APP_API_BASE}/courses`;
+    const [course, setCourse] = useState({});
+    const findCourseById = async (courseId) => {
+        const response = await axios.get(
+        `${URL}/${courseId}`
+        );
+        setCourse(response.data);
+    };
+    useEffect(() => {
+        findCourseById(courseId);
+    }, [courseId]);
+
   return (
     <div className="wd-left-80">
         <div className="wd-flex-top-container wd-width-100 wd-justify-content-center">
